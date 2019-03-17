@@ -31,31 +31,52 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/linearLayout">
-            <ImageButton
-                    android:src="@mipmap/ic_launcher"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/btnAllController"
-                    android:layout_weight="1"/>
-            <ImageButton
-                    android:src="@mipmap/ic_launcher"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/btnSelectCategory"
-                    android:layout_weight="1"/>
-            <ImageButton
-                    android:src="@mipmap/ic_launcher"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/btnSetCategory"
-                    android:layout_weight="1"/>
-            <ImageButton
-                    android:src="@mipmap/ic_launcher"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/btnSetApp"
-                    android:layout_weight="1"/>
 
+            <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+                    android:checkedButton="@+id/main_cont_btn_home" tools:ignore="UselessParent">
+
+                <RadioButton
+                        android:id="@+id/main_cont_btn_home"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_btn_boarder_top"
+                        />
+                <RadioButton
+                        android:id="@+id/main_cont_btn_select_cate"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_btn_boarder_top"
+                        android:checked="false"/>
+                <RadioButton
+                        android:id="@+id/main_cont_btn_home_set_cate"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_btn_boarder_top"
+                />
+                <RadioButton
+                        android:id="@+id/main_cont_btn_home_alert"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_btn_boarder_top"
+                />
+                <RadioButton
+                        android:id="@+id/main_cont_btn_home_set_user"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_btn_boarder_top"
+                />
+
+
+            </RadioGroup>
         </LinearLayout>
 
     </android.support.constraint.ConstraintLayout>
