@@ -45,35 +45,35 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/selector_btn_boarder_top"
-                        />
+                        android:text="Home"/>
                 <RadioButton
                         android:id="@+id/main_cont_btn_select_cate"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/selector_btn_boarder_top"
-                        android:checked="false"/>
+                        android:checked="false" android:text="CateSet"/>
                 <RadioButton
                         android:id="@+id/main_cont_btn_home_set_cate"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/selector_btn_boarder_top"
-                />
+                        android:text="Search"/>
                 <RadioButton
                         android:id="@+id/main_cont_btn_home_alert"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/selector_btn_boarder_top"
-                />
+                        android:text="Alert"/>
                 <RadioButton
                         android:id="@+id/main_cont_btn_home_set_user"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/selector_btn_boarder_top"
-                />
+                        android:text="SetApp"/>
 
 
             </RadioGroup>

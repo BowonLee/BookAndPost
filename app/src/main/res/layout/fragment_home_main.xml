@@ -6,7 +6,7 @@
             android:layout_height="match_parent">
 
         <TextView
-                android:text="Preview Page"
+                android:text="home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"

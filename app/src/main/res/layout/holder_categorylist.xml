@@ -21,7 +21,6 @@
                 android:id="@+id/cate_name"
                 android:layout_alignBottom="@id/cate_image"
                 android:layout_alignEnd="@id/cate_image"
-                android:layout_margin="10dp"
-        />
+                android:layout_margin="10dp"/>
     </RelativeLayout>
 </layout>
